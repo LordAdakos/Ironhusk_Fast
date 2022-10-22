@@ -1,0 +1,36 @@
+{
+    "Layer" : "FreeEntities",
+    "ParentId" : "Obj/Plants/BasePlant",
+    "Components" : [
+        {
+            "Component" : "ObjGraphics",
+            "Properties" : [
+                { "Key" : "Shader", "String" : "ObjNoFlash" },
+                { "Key" : "Graphic", "String": "Obj/Plants/Ironhusk/Ironhusk" }
+            ]
+        },
+        {
+            "Component" : "Plant",
+            "Properties" : [
+                { "Key" : "Size", "String" : "Medium" },
+                {
+                    "Key" : "HarvestOutput",
+                    "RawMaterials" : [
+                        { "TypeId" : "Iron", "StackSize" : 10 }
+                    ]
+                },
+                { "Key" : "GrowthRate", "Float" : 10 },
+                { "Key" : "GrowthAfterHarvest", "Float" : 1 }
+            ]
+        },
+        {
+            "Component" : "Flammable",
+            "Properties" : [
+                { "Key" : "IgnitionTemperatureCelsius", "Int" : 1250 },
+                { "Key" : "MeltingTemperatureCelsius", "Int" : 1500 },
+                { "Key" : "FireDamageMinHealthPercent", "Float" : 0.1 },
+                { "Key" : "FireChance", "Float" : 0.1 }
+            ]
+        }
+    ]
+}

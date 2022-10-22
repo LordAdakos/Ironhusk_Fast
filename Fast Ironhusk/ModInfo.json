@@ -1,0 +1,9 @@
+{
+    "Id" : "FAST_IRONHUSK",
+    "SteamWorkshop" : true,
+    "Name" : "Fast IRONHUSK",
+    "Description" : "Fast IRONHUSK - Grow your own steel quickly",
+    "ModVersion" : "1.0.1f",
+    "GameVersion" : "0.5.182",
+    "Dependencies" : [ "Core" ]
+}
